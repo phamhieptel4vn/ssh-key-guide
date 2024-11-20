@@ -63,4 +63,7 @@ macOS: Cmd + Shift + P
 
 ![image](./img/select_host.png)
 
-4. VSCode sẽ mở một cửa sổ mới kết nối tới server remote.
+4. VSCode sẽ mở một cửa sổ mới kết nối tới server remote và yêu cầu nhập passphrase của SSH Key đã tạo trước đó để connect SSH
+
+![image](./img/passphrase.png)
+
