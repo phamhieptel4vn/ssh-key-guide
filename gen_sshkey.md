@@ -55,10 +55,11 @@ Nội dung của public key sẽ được hiển thị. Sao chép toàn bộ n�
 
 ## Bước 7: Gửi Public Key Cho Team INFRA
 Gửi nội dung public key vừa sao chép qua email cho team INFRA để họ cấp quyền SSH. 
-Email gửi đến: infra@tel4vn.com với tilte email: "[INFRA][TÊN TEAM] - CẤP QUYỀN TRUY CẬP SSH"
+Email gửi đến: infra@tel4vn.com với tilte email: "[INFRA][TÊN TEAM] - CẤP QUYỀN TRUY CẬP SSH".
+
 Template email
 
-```bash
+```plaintext
 TILTE: [INFRA][TÊN TEAM/ TÊN PHÒNG BAN] - CẤP QUYỀN TRUY CẬP SSH
 
 Dear team INFRA,
