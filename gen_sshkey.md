@@ -7,7 +7,7 @@ Mở Terminal (Linux/macOS) hoặc Command Prompt (Windows) và chạy lệnh sa
 ls ~/.ssh
 ```
 
-Nếu bạn thấy file như id_rsa và id_rsa.pub, nghĩa là bạn đã có key SSH. Nếu chưa, tiếp tục làm theo các bước dưới đây để tạo key SSH mới.
+Nếu bạn thấy file như id_rsa và id_rsa.pub, nghĩa là bạn đã có key SSH. Nếu chưa, tiếp tục làm theo các bước dưới đây để tạo key SSH mới. Nếu muốn tạo để nhận dạng theo tel4vn thì cũng có thể phải tạo mới, vì file cũ có thể các bạn tạo cho các server khác.
 
 ## Bước 2: Tạo SSH Key (Nếu chưa có)
 Chạy lệnh sau trong Terminal hoặc Command Prompt để tạo cặp key SSH:
@@ -21,7 +21,7 @@ ssh-keygen -t rsa -b 4096 -C "hieppham@tel4vn.com"
 ### Lưu ý: Bạn cần thay thế "hieppham@tel4vn.com" bằng địa chỉ email của bạn.
 
 ## Bước 3: Chọn Vị Trí Lưu Trữ Key
-Khi được nhắc nhập vị trí lưu key, bạn có thể nhấn Enter để sử dụng vị trí mặc định (~/.ssh/id_rsa). Nếu bạn muốn lưu ở nơi khác, nhập đường dẫn mong muốn.
+Khi được nhắc nhập vị trí lưu key, bạn có thể nhấn Enter để sử dụng vị trí mặc định (~/.ssh/id_rsa). Nếu bạn muốn lưu ở nơi khác, nhập đường dẫn mong muốn và bạn cũng có thể dặt tên file mới khác với tên mặc định (id_rsa). Lưu ý trong trường hợp này bạn thay path và tên id_rsa bằng tên file bạn nhập
 
 ```bash
 Enter file in which to save the key (/home/username/.ssh/id_rsa):

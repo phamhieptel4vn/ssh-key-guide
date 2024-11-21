@@ -7,9 +7,17 @@ Sử dụng lệnh ssh để kết nối vào server
 ```bash
 ssh -p port username@server_ip
 ```
+
+Trường hợp, các bạn đặt tên file khác id_rsa or ở path khác thì cần trỏ đường dẫn vào command ssh
+```bash
+ssh -i {path_to_ssh_file} -p port username@server_ip
+```
+
 - port: port SSH của server
 - username: Tên người dùng trên server remote.
 - server_ip: Địa chỉ IP hoặc tên miền của server.
+- path_to_ssh_file: Đường dẫn tới SSH private key
+
 
 Sau đó nhập passphrase của key SSH đã tạo trước đó:
 ``` plaintext
